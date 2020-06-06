@@ -13,11 +13,20 @@ Cada sensor de ultrasonido HC-SR04 nos permitirá capturar el movimiento simulan
 
 ## Librerias necesarias
 
-Para el correcto funcionamiento del programa es necesario descargar la libreria "paho-mqtt" de Python mediante su gestor de paquetes pip o pip3.
+Para el correcto funcionamiento del programa es necesario descargar 2 librerias de Python mediante su gestor de paquetes pip o pip3.
 
-### Para Python3.x
-`pip3 install paho-mqtt`
+- ### pahoo-mqtt
 
+    Para Python3.x
+    `pip3 install paho-mqtt`
 
-### Para Python2.x
-`pip install paho-mqtt`
+    Para Python2.x
+    `pip install paho-mqtt`
+
+- ### pyserial
+
+    Para Python3.x
+    `pip3 install pyserial`
+
+    Para Python2.x
+    `pip install pyserial`
